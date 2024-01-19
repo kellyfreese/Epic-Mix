@@ -1,16 +1,11 @@
 const epicMix = [
-  "Time to Pretend",
-  "O-o-oh Child",
-  "Wish You Were Here",
-  "Heroes",
-  "I Put a Spell on You",
-  "Call Me",
-  "Paper Planes",
-  "Jolene",
-  "You Don't Own Me",
-  "Fast Car",
-  "Run the World (Girls)",
-  "Superstition",
+  "Get Back Up Again",
+  "Try Everything",
+  "The Climb",
+  "A Million Dreams",
+  "Unwritten",
+  "On Top of the World",
+  "Brave",
 ];
 
 const mixList = document.querySelector(".mix");
@@ -23,7 +18,7 @@ button.addEventListener("click", function () {
   mixInfo(epicMix);
 });
 
-total.innerText = `${epicMix.length} great songs!`;
+total.innerText = `${epicMix.length} growth mindset songs!`;
 const mixInfo = function (mix) {
   mix.forEach(function (song, index) {
     const li = document.createElement("li");
